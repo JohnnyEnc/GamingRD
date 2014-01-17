@@ -15,7 +15,7 @@ body
 header
 {
     width:100%;
-    height:222px;
+    min-height:222px;
     background-color:#FFF;
 }
 #headSec
@@ -142,13 +142,13 @@ header
 	text-indent: 100%;
 	white-space: nowrap;
 }
+#slide {
+    margin-top: 0;
+}
 #slide-wrap {
     margin:0 auto;
     width:1024px;
     position: relative;
-}
-#slide {
-    margin-top: 0px;
 }
 .cycle-overlay { 
     font-family: tahoma, arial;
