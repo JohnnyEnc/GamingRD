@@ -15,7 +15,7 @@ body
 header
 {
     width:100%;
-    height:225px;
+    height:222px;
     background-color:#FFF;
 }
 #headSec
@@ -35,7 +35,13 @@ header
 #headSecBot
 {
     clear:both;
-    width:1024px;
+    width:100%;
+    background: url(../images/bgmenu.jpg) repeat-x;
+    height:37px;
+}
+#myNav
+{
+    width:1025px;
     margin:0 auto;
 }
 #loginSec
@@ -66,7 +72,7 @@ header
 }
 .menu {
     width: 100%;
-    height: 38px;
+    height: 37px;
     background: url(../images/bgmenu.jpg) repeat-x;
 }
 .menu > ul > li {
@@ -74,6 +80,10 @@ header
     padding: 0 12px;
     border-right: 1px solid #dedede;
     height: 35px;
+}
+.firstli
+{
+    border-left:1px solid #dedede;
 }
 .menu > ul {
     float: left;
@@ -87,6 +97,7 @@ header
     font-size: 13px;
     float: left;
     width: 100%;
+    padding:11px 20px;
 }
 .menu > ul > li:hover a{
     color: #d33;
@@ -137,7 +148,7 @@ header
     position: relative;
 }
 #slide {
-    margin-top: 5px;
+    margin-top: 0px;
 }
 .cycle-overlay { 
     font-family: tahoma, arial;
@@ -264,9 +275,6 @@ nav ul li{
 	float:left;
 	height: 40px;
 	border-right:thin black solid;
-}
-nav ul li:hover{
-	background:gray;
 }
 nav ul li:hover a{
 	color:white;
