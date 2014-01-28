@@ -1,4 +1,4 @@
-*{
+﻿*{
 	list-style:none;
 	margin:0;
 	padding:0;
@@ -297,6 +297,7 @@ nav ul li a{
 #primary-content{
 	width: 740px;
 	float:left;
+	margin-top: 10px;
 	min-height: 610px;
 	background: #f3f3f3;
 	box-shadow: 2px 0 4px -3px black;
@@ -304,7 +305,8 @@ nav ul li a{
 #secundary-content{
 	width: 270px;
 	float: left;
-    margin-right:6px;
+    
+	margin-right:6px;
 	min-height: 932px;
 }
 
@@ -351,7 +353,7 @@ nav ul li a{
 #general-content {
     width: 100%;
     float: left;
-    background: #e7e7e7;
+    /* background: #e7e7e7; */
     min-height: 610px;
     box-shadow: 1px 2px 22px -13px black;
     /* border-right: 1px solid black; */
@@ -440,9 +442,10 @@ nav ul li a{
 .social-networks h3{
     position: relative;   
     width: 95%;   
+    /* float: left; */
     font-size: 1.0em;   font-weight: bold;   
-    padding: 6px 20px 6px 17px;   
-    margin: 5px 10px 10px 1px;   
+    padding: 6px 20px 6px 12px;   
+    margin: 0px 10px 10px 0px;   
     color: rgb(154,202,255);   
     background-color: rgb(0,44,90);   
     /* text-shadow: 0px 1px 2px #bbb; */   -webkit-box-shadow: 0px 2px 4px #888;   -moz-box-shadow: 0px 2px 4px #888;   box-shadow: 0px 2px 4px #888;
@@ -524,7 +527,7 @@ nav ul li a{
    text-align: center;
 }
 #aside-banner img{
-	margin-left: 24px;
+	margin-left: 18px;
 }
 
 #banner{
@@ -543,7 +546,12 @@ nav ul li a{
     background: red;
     color: white;
 }
-
+.subscription {
+    width: 276px;
+    height: 102px;
+    /* margin-top: 10px; */
+    background: #f3f3f3;
+}
 /*
                     |===========================================================|
                     |    EL ESTILO DEL HEADER ANTIGUO POR SI SE NECESITA ALGO   |
